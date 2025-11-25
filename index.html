@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Beatriz Rodrigues</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ========== Theme Toggle ========== -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+        <i class="uil uil-moon theme-toggle__icon"></i>
+    </button>
+
+    <!-- ========== Header/Hero ========== -->
+    <header id="home">
+        <div class="header-container">
+            <div class="hero-content">
+                <h1>Beatriz Rodrigues</h1>
+                <p class="subtitle">Desenvolvedora Frontend</p>
+                <p class="description">
+                    Tecnologia e desenvolvimento de software.
+                </p>
+                <a href="#contact" class="cta-button">Entre em contato</a>
+            </div>
+
+            <div class="img">
+                <img src="img/pc.png" alt="pc">
+            </div>
+        </div>
+
+        <!-- Scroll -->
+        <div class="home__scroll">
+            <a class="home__scroll-button button--flex" href="#about">
+                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                <span class="home__scroll-name">Desça para ver mais</span>
+                <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- ========== CONTAINER PRINCIPAL ========== -->
+    <div class="container">
+
+        <!-- ========== Sobre ========== -->
+        <section class="section" id="about">
+            <h2>Sobre mim</h2>
+            <div class="beatriz">
+                <div class="img">
+                    <img src="img/beatriz.png" alt="beatriz">
+                </div>
+            </div>
+            <div class="about-content">
+                <br>
+                <p>
+                    Desenvolvedora frontend criando experiências web e mobile modernas e responsivas.
+                    Estudante de tecnologia focada em desenvolvimento de software, com conhecimentos em
+                    HTML, CSS, JavaScript e frameworks modernos.
+                </p>
+
+                <!-- Botão CV -->
+                <div class="about__buttons">
+                    <a href="/pdf/Currículo - Beatriz Pereira Rodrigues .pdf" download class="button button--flex">
+                        Baixar currículo
+                        <i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, JavaScript, desenvolvimento web moderno e responsivo</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Design</h3>
+                        <p>UI/UX, interfaces intuitivas e experiência do usuário</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tecnologias</h3>
+                        <p>Frameworks modernos, versionamento e boas práticas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Linguagens ========== -->
+        <section class="section" id="languages">
+            <div class="skills_category">
+                <div class="skills_header">
+                    <i class="uil uil-brackets-curly skills_icon"></i>
+                    <h3 class="skills_category-title">Linguagens</h3>
+                </div>
+
+                <div class="skills_list">
+                    <span class="skill_badge">HTML</span>
+                    <span class="skill_badge">CSS</span>
+                    <span class="skill_badge">JavaScript</span>
+                    <span class="skill_badge">Flutter</span>
+                    <span class="skill_badge">Swift</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Tecnologias ========== -->
+        <section class="section" id="tecnologias">
+            <div class="skills_category">
+                <div class="skills_header">
+                    <i class="uil uil-wrench skills_icon"></i>
+                    <h3 class="skills_category-title">Tecnologias e Frameworks</h3>
+                </div>
+
+                <div class="skills_list">
+                    <span class="skill_badge">Node.js</span>
+                    <span class="skill_badge">React Native</span>
+                    <span class="skill_badge">Git</span>
+                    <span class="skill_badge">GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Design ========== -->
+        <section class="section" id="design">
+            <div class="skills_category">
+                <div class="skills_header">
+                    <i class="uil uil-palette skills_icon"></i>
+                    <h3 class="skills_category-title">Design</h3>
+                </div>
+
+                <div class="skills_list">
+                    <span class="skill_badge">UX UI</span>
+                    <span class="skill_badge">Figma</span>
+                    <span class="skill_badge">Canva</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Portfólio ========== -->
+        <section class="section" id="portfolio">
+            <h2>Projetos</h2>
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/rino.png" alt="Imagem do Projeto 1" class="portfolio__img">
+                        <div class="portfolio__data">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/livro.png" alt="Imagem do Projeto 2" class="portfolio__img">
+                        <div class="portfolio__data">
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/social.png" alt="Imagem do Projeto 3" class="portfolio__img">
+                        <div class="portfolio__data">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        
+        <!-- ========== Contato ========== -->
+        <section class="contact-section" id="contact">
+            <div class="contact-wrapper">
+
+                <!-- Cabeçalho -->
+                <div class="contact-header">
+                    <h2>Contato</h2>
+                    <p>Entre em contato para uma conversa.</p>
+                </div>
+
+                <!-- Card de Contato -->
+                <div class="contact-card">
+        
+                        <!-- Linkedin -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Linkedin</h3>
+                                <p>/beatrizrd</p>
+                            </div>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="uil uil-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>GitHub</h3>
+                                <p>@beaprodrigues</p>
+                            </div>
+                        </div>
+
+                        <!-- Localização -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="uil uil-map-marker"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Localização</h3>
+                                <p>Pindamonhangaba, SP</p>
+                            </div>
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="uil uil-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>E-mail</h3>
+                                <p>beatrizprdev@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <!-- Botão email -->
+                        <div class="contact-actions">
+                            <a href="mailto:beatrizprdev@gmail.com" class="email-button">
+                                Enviar um e-mail
+                                <i class="uil uil-message"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Celular -->
+                    <div class="celular">
+                        <div class="img">
+                            <img src="img/celular.png" alt="celular">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ========== Footer ========== -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="logo">BEA<span>TRIZ</span></div>
+            <p>2025 Beatriz Rodrigues. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/beaprodrigues" target="_blank" class="social-link">
+                    <i class="uil uil-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/beatrizrd" target="_blank" class="social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+        </div>
+    </div>
+</footer>
+
+    <!-- ========== Scripts ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
