@@ -33,7 +33,7 @@ Este projeto foi construído usando:
 ## Como Executar
 ```bash
 # Clone este repositório
-https://github.com/beaprodrigues/portfoliobeatriz
+https://github.com/beaprodrigues/Portfolio
 
 # Instale as dependências
 npm install
