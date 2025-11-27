@@ -49,7 +49,7 @@ Visite [portfolio](https://beatriz-rd.vercel.app)
 
 Criado por **Seu Nome**
 
-- LinkedIn: [seu-perfil](https://linkedin.com/in/beatrizrd)
+- LinkedIn: [perfil](https://linkedin.com/in/beatrizrd)
 - Email: beatrizprdev@gmail.com
 
 ---
