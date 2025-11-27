@@ -43,7 +43,7 @@ npm start
 ```
 ## Demo
 
-Visite [portfolio](https://beatriz-rd.vercel.app)
+Visite: [portfolio](https://beatriz-rd.vercel.app)
 
 ## Contato
 
